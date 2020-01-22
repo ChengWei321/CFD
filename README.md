@@ -3,19 +3,19 @@ This fortran code is a implementation of a 3D pipe flow using Direct Forcing Imm
 
 ## Makefile
 Use make to compile the program from source code and create executice file
-'''bash
+```bash
 make
-'''
+```
 to clean up object files and old data:
-'''bash
+```bash
 make cleanall
-'''
+```
 
 ## Execution
 Run in MPI
-'''bash
+```bash
 mpirun -np (nprocs) ./main
-'''
+```
 
 ## Initial Author
 Wei, Zi-Hsuan
